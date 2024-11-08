@@ -1,0 +1,20 @@
+# Excluir entornos virtuales
+venv/
+
+# Excluir archivos de configuración sensible
+app/.env
+
+# Excluir archivos de caché de Python
+__pycache__/
+*.pyc
+
+# Excluir archivos de migración de Alembic (opcional)
+alembic/versions/*
+
+# Excluir archivos de logs
+*.log
+
+# Excluir archivos de compilación de IDEs y sistemas operativos
+.vscode/
+.idea/
+.DS_Store
